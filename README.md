@@ -60,5 +60,5 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/self-balance-bldc-robot.git
+   https://github.com/rassulz/pid_self_balance_bldc
    cd self-balance-bldc-robot
