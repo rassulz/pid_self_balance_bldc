@@ -23,18 +23,18 @@
   - PWM output with Servo.h / analogWrite for ESC signals  
   - Serial logging for real-time debug
 
-- **Simulink Model** (`balancing_model.slx`)  
+- **Simulink Model** (`BDLC_SimulinkModel.slx`)  
   - Simscape Electrical inverter + BLDC motor  
   - Hall-sensor decoding and gating  
   - Discrete PID block replicating Arduino logic  
   - Powergui in discrete mode (5 µs step)
 
-- **MATLAB Script** (`self_balance_pid.m`)  
+- **MATLAB Script** 
   - Linearized inverted-pendulum state-space model  
   - Discretized at 200 Hz  
   - PID simulation with tilt-angle and control-effort plots
 
-- **Fusion 360 Model** (`chassis.f3d`)  
+- **Fusion 360 Model**  
   - Printable frame with landing legs  
   - Mount points for Arduino, IMU, ESCs, battery, and motors
 
