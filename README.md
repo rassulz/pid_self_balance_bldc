@@ -61,4 +61,3 @@
 1. **Clone the repository**
    ```bash
    https://github.com/rassulz/pid_self_balance_bldc
-   cd self-balance-bldc-robot
